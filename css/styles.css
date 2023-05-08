@@ -8,21 +8,28 @@
 }
 body {
   background-color: var(--text-bgc-white-color);
+  color: var(--secondary-text-color);
   color: var(--primery-text-color);
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
 }
 /* Logo */
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  sletter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-header {
   color: var(--logo-background-color);
   text-decoration: none;
+}
+.logo:hover,
+.logo:focus {
+  background-color: var(--secondary-accent-color);
 }
 .span-header {
   color: var(--primery-text-color);
@@ -37,18 +44,19 @@ body {
   color: var(--primery-accent-color);
 }
 
-/* List and links */
+/* List and link */
 .list {
   list-style: none;
 }
-.links {
+.link {
   text-decoration: none;
 }
 
-.addres .links:hover,
-.addres .links:hover {
+.addres .link:hover,
+.addres .link:hover {
   background-color: var(--logo-background-color);
   color: var(--text-bgc-white-color);
+  font-style: normal;
 }
 .button-order {
   background-color: var(--logo-background-color);
@@ -56,6 +64,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button-order:hover,
 .button-order:focus {
@@ -63,8 +74,14 @@ body {
 }
 
 .button-products {
-  border-color: var(--primery-accent-color);
+  background-color: var(--primery-accent-color);
   color: var(--logo-background-color);
+  cursor: pointer;
+}
+.button-products:hover,
+.button-products:focus {
+  color: var(--text-bgc-white-color);
+  background-color: var(--secondary-accent-color);
 }
 .button-items {
   list-style: none;
@@ -72,7 +89,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-.addres .links {
+.addres .link {
   color: var(--secondary-text-color);
   font-style: normal;
   font-weight: 400;
@@ -80,7 +97,7 @@ body {
   line-height: 1.5;
 }
 
-.site-nav .links {
+.site-nav .link {
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -90,12 +107,14 @@ body {
   list-style: none;
 }
 
-.site-nav .links:hover,
-.site-nav .links:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--logo-background-color);
 }
 .hero {
   background: var(--primery-text-color);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .slogan {
   color: var(--text-bgc-white-color);
@@ -121,15 +140,22 @@ body {
 .h-two {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 .h-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .footer {
   background-color: var(--primery-text-color);
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .text-footer {
