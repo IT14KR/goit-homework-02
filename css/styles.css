@@ -20,16 +20,18 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  sletter-spacing: 0.03em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-style: normal;
 }
 .logo-header {
   color: var(--logo-background-color);
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo:hover,
 .logo:focus {
-  background-color: var(--secondary-accent-color);
+  color: var(--secondary-accent-color);
 }
 .span-header {
   color: var(--primery-text-color);
@@ -39,6 +41,8 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--logo-background-color);
 }
 .span-footer {
   color: var(--primery-accent-color);
@@ -54,9 +58,8 @@ body {
 
 .addres .link:hover,
 .addres .link:hover {
-  background-color: var(--logo-background-color);
+  background-color: var(--secondary-accent-color);
   color: var(--text-bgc-white-color);
-  font-style: normal;
 }
 .button-order {
   background-color: var(--logo-background-color);
@@ -88,6 +91,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.04em;
 }
 .addres .link {
   color: var(--secondary-text-color);
@@ -95,6 +100,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  font-style: normal;
 }
 
 .site-nav .link {
@@ -109,7 +115,7 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--logo-background-color);
+  color: var(--secondary-accent-color);
 }
 .hero {
   background: var(--primery-text-color);
@@ -130,12 +136,13 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .section-exems {
   background-color: var(--text-bgc-white-color);
 }
 .sction-employees {
-  background-color: var(--primery-accent-color);
+  background-color: var(--text-bgc-white-color);
 }
 .h-two {
   font-weight: 700;
@@ -143,6 +150,8 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .h-three {
   font-weight: 500;
