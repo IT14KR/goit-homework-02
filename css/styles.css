@@ -1,15 +1,141 @@
+:root {
+  --primery-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --logo-background-color: #4d5ae5;
+  --text-bgc-white-color: #ffffff;
+  --primery-accent-color: #f4f4fd;
+  --secondary-accent-color: #404bbf;
+}
 body {
-  color: #2e2f42;
+  background-color: var(--text-bgc-white-color);
+  color: var(--primery-text-color);
+
+  font-family: Roboto;
+  letter-spacing: 0.02em;
+}
+/* Logo */
+.logo {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.logo-header {
+  color: var(--logo-background-color);
+  text-decoration: none;
+}
+.span-header {
+  color: var(--primery-text-color);
+}
+.logo-foooter {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.span-footer {
+  color: var(--primery-accent-color);
 }
 
-/* Background
-#E5E5E5 */
-/* background picture color #FFFFFF */ /* maine colore #2E2F42 */
-/* secondary color #434455 */
-/* logo, bgr hero buton color, text button #background: #4D5AE5;
-/* logo background : #F4F4FD;
- */
-/* wite #FFFFFF */ /* background filter first #404BBF 
-*/
-/* background filters buttons #F4F4FD
- */
+/* List and links */
+.list {
+  list-style: none;
+}
+.links {
+  text-decoration: none;
+}
+
+.addres .links:hover,
+.addres .links:hover {
+  background-color: var(--logo-background-color);
+  color: var(--text-bgc-white-color);
+}
+.button-order {
+  background-color: var(--logo-background-color);
+  color: var(--text-bgc-white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.button-order:hover,
+.button-order:focus {
+  background-color: var(--secondary-accent-color);
+}
+
+.button-products {
+  border-color: var(--primery-accent-color);
+  color: var(--logo-background-color);
+}
+.button-items {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.addres .links {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.site-nav .links {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.portfolio-list {
+  list-style: none;
+}
+
+.site-nav .links:hover,
+.site-nav .links:focus {
+  color: var(--logo-background-color);
+}
+.hero {
+  background: var(--primery-text-color);
+}
+.slogan {
+  color: var(--text-bgc-white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+.hidden {
+  visibility: hidden;
+}
+.section-text {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.section-exems {
+  background-color: var(--text-bgc-white-color);
+}
+.sction-employees {
+  background-color: var(--primery-accent-color);
+}
+.h-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+.h-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.footer {
+  background-color: var(--primery-text-color);
+}
+
+.text-footer {
+  color: var(--primery-accent-color);
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
