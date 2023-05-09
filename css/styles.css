@@ -1,7 +1,16 @@
+:root {
+  --text-color: #434455;
+  --white-color: #ffffff;
+  --dark-color: #2e2f42;
+  --light-color: #f4f4fd;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+}
+
 body {
   font-family: Roboto, sans-serif;
-  background: #ffffff;
-  color: #2e2f42;
+  background: var(--white-color);
+  color: var(--text-color);
 }
 .link {
   text-decoration: none;
@@ -16,14 +25,13 @@ body {
 
 /* ------------Header----------- */
 .header {
-  background: #ffffff;
 }
 .site-navigation {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 .active-link {
   font-weight: 500;
@@ -34,10 +42,10 @@ body {
 }
 .header-link:hover,
 .header-link:focus {
-  color: #4d5ae5;
+  color: var(--pressed-state-color);
 }
 .logo-header {
-  font-family: 'Raleway';
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -45,7 +53,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
 }
 .span-header {
   font-family: 'Raleway';
@@ -55,7 +63,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 
 .addres {
@@ -65,12 +73,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
-/*------------------ Hero---------- */
+/*----------------- Hero---------- */
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--dark-color);
 }
 .hero-titel {
   font-weight: 700;
@@ -78,20 +86,22 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .btn-order {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--white-color);
+  background-color: var(--primary-brand-color);
 }
 .btn-order:hover,
 .btn-order:focus {
-  background-color: #404bbf;
+  background-color: var(--pressed-state-color);
 }
 
 /* -------------Skills----------- */
@@ -105,14 +115,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 .skills-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 /*--------- Examples-------- */
 .examples {
@@ -124,14 +134,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 .examples-item {
 }
 
 /* ---------Employees----- */
 .employees {
-  background: #f4f4fd;
+  background: var(--light-color);
 }
 .employees-titel {
   font-weight: 700;
@@ -140,10 +150,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--dark-color);
 }
 
 .employees-item {
-  background: #ffffff;
+  background: var(--white-color);
 }
 .employees-name {
   font-weight: 500;
@@ -151,7 +162,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 .employees-text {
   font-weight: 400;
@@ -159,16 +170,16 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 /* -------Footer------ */
 .footer {
-  background: #2e2f42;
+  background: var(--dark-color);
 }
 .logo-footer {
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
   text-decoration: none;
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -189,14 +200,14 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--light-color);
 }
 .text-footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--light-color);
 }
 /* ----------------Portfolio------ */
 .section-exems {
@@ -207,7 +218,9 @@ body {
 }
 /* --------Butonn--------- */
 .button-all {
-  background: #404bbf;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background: var(--pressed-state-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -215,10 +228,12 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .button-products {
-  background: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background: var(--light-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -226,7 +241,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
 }
 /* ------products------ */
 .section-exems {
@@ -237,12 +252,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 .product-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
