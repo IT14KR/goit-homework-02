@@ -28,6 +28,13 @@ body {
 }
 .site-navigation {
 }
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
 
 .header-link:hover,
 .header-link:focus {
@@ -54,14 +61,10 @@ body {
   text-transform: uppercase;
   color: var(--dark-color);
 }
-
+/* .active-link{
+  
+} */
 .addres {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 .addres-color {
   font-family: 'Roboto';
