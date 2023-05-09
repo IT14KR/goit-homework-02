@@ -40,6 +40,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .header-link:hover,
 .header-link:focus {
   color: var(--pressed-state-color);
@@ -73,6 +74,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  
+}
+.addres-color {
   color: var(--text-color);
 }
 
@@ -90,7 +94,7 @@ body {
 }
 .btn-order {
   cursor: pointer;
-  font-family: "Roboto", sans-serif
+  font-family: inherit
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -220,7 +224,7 @@ body {
 .button-all {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
-  background: var(--pressed-state-color);
+  background: var(--light-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -228,7 +232,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--white-color);
+  color:var(--primary-brand-color);
 }
 .button-products {
   font-family: "Roboto", sans-serif;
