@@ -14,29 +14,36 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <!--Navi contacts-->
-      <nav>
+    <header class="header">
+      <nav class="site-navigation">
         <a href="./index.html" class="logo-header link"
           >WEB<span class="span-header">Studio</span></a
         >
-        <h1 class="hidden" hidden>portfolio</h1>
-        <ul class="site-nav list">
-          <li><a class="link" href="./index.html">Studio</a></li>
-          <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="link" href="">Contacts</a></li>
+
+        <ul class="list active-link">
+          <li class="active-link">
+            <a href="./index.html" class="header-link link">Studio</a>
+          </li>
+          <li class="active-link">
+            <a href="./portfolio.html" class="header-link link">Portfolio</a>
+          </li>
+          <li class="active-link">
+            <a href="" class="header-link link">Contacts</a>
+          </li>
         </ul>
       </nav>
 
       <address class="addres">
         <ul class="list">
-          <li>
-            <a class="link" href="mailto:info@devstudio.com"
-              >info@devstudio.com
-            </a>
+          <li class="active-link">
+            <a href="mailto:info@devstudio.com" class="header-link link"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a class="link" href="tel:+110001111111"> +11 (000) 111-11-11 </a>
+          <li class="active-link">
+            <a href="tel:+110001111111" class="header-link link">
+              +11 (000) 111-11-11
+            </a>
           </li>
         </ul>
       </address>
@@ -44,9 +51,10 @@
 
     <main>
       <section class="section-exems">
-        <h2 class="hidden" hidden>portfolio</h2>
-        <ul class="button-items list">
-          <li><button class="button-products" type="button">All</button></li>
+        <h1 class="hidden" hidden>portfolio</h1>
+        <!-- Butonn -->
+        <ul class="list">
+          <li><button class="button-all" type="button">All</button></li>
           <li>
             <button class="button-products" type="button">Web Site</button>
           </li>
@@ -56,8 +64,8 @@
             <button class="button-products" type="button">Marketing</button>
           </li>
         </ul>
-
-        <ul class="portfolio-list">
+        <!-- Product list -->
+        <ul class="list">
           <li>
             <a href="" class="link">
               <img
@@ -66,8 +74,8 @@
                 width="360"
                 height="300"
               />
-              <h2 class="h-three">Banking App Interface Concept</h2>
-              <p class="section-text">App</p></a
+              <h2 class="secondary-titel">Banking App Interface Concept</h2>
+              <p class="product-text">App</p></a
             >
           </li>
           <li>
@@ -78,8 +86,8 @@
                 width="360"
                 height="300"
               />
-              <h2 class="h-three">Cashless Payment</h2>
-              <p class="section-text">Marketing</p>
+              <h2 class="secondary-titel">Cashless Payment</h2>
+              <p class="product-text">Marketing</p>
             </a>
           </li>
           <li>
@@ -90,8 +98,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="h-three">Meditation Apps</h3>
-              <p class="section-text">App</p>
+              <h2 class="secondary-titel">Meditation Apps</h2>
+              <p class="product-text">App</p>
             </a>
           </li>
           <li>
@@ -102,8 +110,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="h-three">Taxi Service</h3>
-              <p class="section-text">Marketing</p>
+              <h2 class="secondary-titel">Taxi Service</h2>
+              <p class="product-text">Marketing</p>
             </a>
           </li>
           <li>
@@ -114,8 +122,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="h-three">Screen Illustrations</h3>
-              <p class="section-text">Design</p>
+              <h2 class="secondary-titel">Screen Illustrations</h2>
+              <p class="product-text">Design</p>
             </a>
           </li>
           <li>
@@ -126,8 +134,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="h-three">Design</h3>
-              <p class="section-text">Marketing</p>
+              <h2 class="secondary-titel">Design</h2>
+              <p class="product-text">Marketing</p>
             </a>
           </li>
           <li>
@@ -138,8 +146,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="h-three">Instagram Stories Concept</h3>
-              <p class="section-text">Design</p>
+              <h2 class="secondary-titel">Instagram Stories Concept</h2>
+              <p class="product-text">Design</p>
             </a>
           </li>
           <li>
@@ -150,8 +158,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="h-three">Organic Food</h3>
-              <p class="section-text">Web Site</p>
+              <h2 class="secondary-titel">Organic Food</h2>
+              <p class="product-text">Web Site</p>
             </a>
           </li>
           <li>
@@ -162,8 +170,8 @@
                 width="360"
                 height="300"
               />
-              <h3 class="h-three">Fresh Coffee</h3>
-              <p class="section-text">Web Site</p>
+              <h2 class="secondary-titel">Fresh Coffee</h2>
+              <p class="product-text">Web Site</p>
             </a>
           </li>
         </ul>
@@ -171,7 +179,7 @@
     </main>
 
     <footer class="footer">
-      <a href="./index.html " class="logo-header logo link"
+      <a href="./index.html " class="logo-footer"
         >WEB<span class="span-footer">Studio</span>
       </a>
 

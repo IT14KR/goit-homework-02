@@ -15,29 +15,34 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <!--Navi contacts-->
-      <nav>
-        <a href="./index.html" class="logo-header logo link"
+    <header class="header">
+      <nav class="site-navigation">
+        <a href="./index.html" class="logo-header link"
           >WEB<span class="span-header">Studio</span></a
         >
 
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Studio</a></li>
-          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
-          <li><a href="" class="link">Contacts</a></li>
+        <ul class="list active-link">
+          <li class="active-link">
+            <a href="./index.html" class="header-link link">Studio</a>
+          </li>
+          <li class="active-link">
+            <a href="./portfolio.html" class="header-link link">Portfolio</a>
+          </li>
+          <li class="active-link">
+            <a href="" class="header-link link">Contacts</a>
+          </li>
         </ul>
       </nav>
 
       <address class="addres">
         <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link addres-link"
+          <li class="active-link">
+            <a href="mailto:info@devstudio.com" class="header-link link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+110001111111" class="link addres-link">
+          <li class="active-link">
+            <a href="tel:+110001111111" class="header-link link">
               +11 (000) 111-11-11
             </a>
           </li>
@@ -46,40 +51,38 @@
     </header>
 
     <main>
-      <!--epistle +button-->
       <section class="hero">
-        <h1 class="slogan">Effective Solutions for Your Business</h1>
+        <h1 class="hero-titel">Effective Solutions for Your Business</h1>
 
-        <button type="button" class="button-order">Order Service</button>
+        <button type="button" class="btn-order">Order Service</button>
       </section>
-      <!--strategy-->
-      <section class="section">
-        <h2 class="hidden">experiences(hide)</h2>
+      <section class="skills">
+        <h2 class="hidden">experiences</h2>
         <ul class="list">
-          <li>
-            <h3 class="h-three">Strategy</h3>
-            <p class="section-text">
+          <li class="skills-item">
+            <h3 class="skills-titel">Strategy</h3>
+            <p class="skills-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3 class="h-three">Punctuality</h3>
-            <p class="section-text">
+          <li class="skills-item">
+            <h3 class="skills-titel">Punctuality</h3>
+            <p class="skills-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3 class="h-three">Diligence</h3>
-            <p class="section-text">
+          <li class="skills-item">
+            <h3 class="skills-titel">Diligence</h3>
+            <p class="skills-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3 class="h-three">Technologies</h3>
-            <p class="section-text">
+          <li class="skills-item">
+            <h3 class="skills-titel">Technologies</h3>
+            <p class="skills-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -87,10 +90,10 @@
         </ul>
       </section>
       <!--oure work-->
-      <section class="section-exems">
-        <h2 class="h-two">What are we doing</h2>
+      <section class="examples">
+        <h2 class="examples-titel">What are we doing</h2>
         <ul class="list">
-          <li>
+          <li class="examples-item">
             <img
               src="./images/monitor.jpg"
               alt="monitor whith inforation"
@@ -98,7 +101,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="examples-item">
             <img
               src="./images/mobilephone.jpg"
               alt="mobile phone and aplication"
@@ -106,7 +109,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="examples-item">
             <img
               src="./images/laptopandhandhodingmobilephone.jpg"
               alt="laptop same aplication on the display and hand hoding mobile phone same information on display"
@@ -117,10 +120,10 @@
         </ul>
       </section>
       <!--team-->
-      <section class="sction-employees">
-        <h2 class="h-two">Our Team</h2>
+      <section class="employees">
+        <h2 class="employees-titel">Our Team</h2>
         <ul class="list">
-          <li class="team-foto">
+          <li class="employees-item">
             <img
               src="./images/portretMarkG.jpg"
               alt="man smile has a beard wearing a blue shirt dark hair "
@@ -128,10 +131,10 @@
               height="260"
             />
 
-            <h3 class="h-three">Mark Guerrero</h3>
-            <p class="section-text">Product Designer</p>
+            <h3 class="employees-name">Mark Guerrero</h3>
+            <p class="employees-text">Product Designer</p>
           </li>
-          <li class="team-foto">
+          <li class="employees-item">
             <img
               src="./images/portretTomF.jpg"
               alt="the young man is smiling  blond hair"
@@ -139,10 +142,10 @@
               height="260"
             />
 
-            <h3 class="h-three">Tom Ford</h3>
-            <p class="section-text">Frontend Developer</p>
+            <h3 class="employees-name">Tom Ford</h3>
+            <p class="employees-text">Frontend Developer</p>
           </li>
-          <li class="team-foto">
+          <li class="employees-item">
             <img
               src="./images/PortretCamilaG.jpg"
               alt="young girl long brown hair pink blouse"
@@ -150,10 +153,10 @@
               height="260"
             />
 
-            <h3 class="h-three">Camila Garcia</h3>
-            <p class="section-text">Marketing</p>
+            <h3 class="employees-name">Camila Garcia</h3>
+            <p class="employees-text">Marketing</p>
           </li>
-          <li class="team-foto">
+          <li class="employees-item">
             <img
               src="./images/PortretDanielW.jpg"
               alt="yong man smile in t-shirt"
@@ -161,14 +164,14 @@
               height="260"
             />
 
-            <h3 class="h-three">Daniel Wilson</h3>
-            <p class="section-text">UI Designer</p>
+            <h3 class="employees-name">Daniel Wilson</h3>
+            <p class="employees-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html " class="logo-footer logo link"
+      <a href="./index.html " class="logo-footer"
         >WEB<span class="span-footer">Studio</span>
       </a>
 
