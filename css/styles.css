@@ -14,7 +14,6 @@ body {
 }
 .link {
   text-decoration: none;
-  
 }
 
 .list {
@@ -52,7 +51,7 @@ body {
   color: var(--primary-brand-color);
 }
 .span-header {
-  font-family: 'Raleway'sans-serif ;
+  font-family: 'Raleway' sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -62,23 +61,20 @@ body {
   color: var(--dark-color);
 }
 
-} */
-.addres {
+.address {
   font-style: normal;
 }
-.addres-link {
-  font-family: 'Roboto'sans-serif;
-  font-style: normal;
+.address-link {
+  font-family: 'Roboto' sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.addres-link:hover, 
+.address-link:hover,
 .addres-link:focus {
   color: var(--pressed-state-color);
-
 }
 
 /*----------------- Hero---------- */
@@ -94,7 +90,7 @@ body {
   color: var(--white-color);
 }
 .btn-order {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -236,7 +232,8 @@ body {
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
 }
-.button-products:hover, .button-products:focus {
+.button-products:hover,
+.button-products:focus {
   color: var(--white-color);
   background-color: var(--pressed-state-color);
 }
@@ -258,5 +255,3 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-
-
