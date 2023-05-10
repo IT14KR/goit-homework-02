@@ -14,7 +14,7 @@ body {
 }
 .link {
   text-decoration: none;
-  color: inherit;
+  
 }
 
 .list {
@@ -52,7 +52,7 @@ body {
   color: var(--primary-brand-color);
 }
 .span-header {
-  font-family: 'Raleway';
+  font-family: 'Raleway'sans-serif ;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -61,19 +61,24 @@ body {
   text-transform: uppercase;
   color: var(--dark-color);
 }
-/* .active-link{
-  
+
 } */
 .addres {
+  font-style: normal;
 }
-.addres-color {
-  font-family: 'Roboto';
+.addres-link {
+  font-family: 'Roboto'sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+.addres-link:hover, 
+.addres-link:focus {
+  color: var(--pressed-state-color);
+
 }
 
 /*----------------- Hero---------- */
@@ -89,6 +94,7 @@ body {
   color: var(--white-color);
 }
 .btn-order {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -216,19 +222,7 @@ body {
   visibility: hidden;
 }
 /* --------Butonn--------- */
-.button-all {
-  font-family: 'Roboto', sans-serif;
-  cursor: pointer;
-  background: var(--light-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--primary-brand-color);
-}
+
 .button-products {
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
@@ -241,6 +235,10 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
+}
+.button-products:hover, .button-products:focus {
+  color: var(--white-color);
+  background-color: var(--pressed-state-color);
 }
 /* ------products------ */
 .section-exems {
@@ -260,3 +258,5 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
+
