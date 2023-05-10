@@ -73,7 +73,7 @@ body {
   color: var(--text-color);
 }
 .address-link:hover,
-.addres-link:focus {
+.address-link:focus {
   color: var(--pressed-state-color);
 }
 
